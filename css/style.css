@@ -1,0 +1,110 @@
+body{
+    background-color: #171717;
+}
+.container{
+    color: white;
+    text-align: center;
+}
+#lunar{
+    color: orange;
+}
+#wiki{
+    color: orange;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: space-around;
+    border: 2px white solid;
+}
+.luckyloo{
+    text-decoration: none;
+    color: lightgreen;
+    transition: 0.3s;
+}
+.luckyloo:hover{
+    text-decoration: underline;
+    transition: 0.3s;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: lightseagreen;
+    transition: 0.3s;
+}
+a:hover{
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.bezzli{
+    border: 5px white solid;
+    width: 15%;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+.wiki2{
+    border: 5px white solid;
+    width: 15%;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+.tg{
+    height: 50px;
+    margin-top: 5px;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: 0.3s;
+}
+.bezzli:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.wiki2:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.telegram{
+    border: 5px white solid;
+    width: 15%;
+    margin: 0 auto;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+.telegram:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#tg{
+    text-decoration: none;
+    color: white;
+}
+.motd{
+    border: 5px white solid;
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.motd:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#projects{
+    color: orange;
+}
+#media{
+    color: orange;
+}
+#motd{
+    color: orange;
+}
